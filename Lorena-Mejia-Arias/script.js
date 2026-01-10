@@ -50,21 +50,18 @@ sin retornar un nuevo arreglo.
 map(): es un método de transformación, ya que recorre el arreglo y retorna uno nuevo, 
 donde cada elemento es el resultado de aplicar una función al elemento original.*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ==================================================== //
+
+// Ejercicio 2
+
+// Ejercicio 1: Gestión de Pilas (Mutable)
+
+let herramientas = ["Martillo", "Destornillador"];
+
+herramientas.push("Taladro");
+herramientas.unshift("Sierra");
+herramientas.pop();
+
+console.log("Ejercicio 1 - Resultado:", herramientas);
+console.log("Ejercicio 1 - Arreglo original modificado:", herramientas);
 
