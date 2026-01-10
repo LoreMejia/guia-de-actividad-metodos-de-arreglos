@@ -82,3 +82,12 @@ const fahrenheit = temperaturas.map(c => (c * 9 / 5) + 32);
 
 console.log("Ejercicio 3 - Resultado:", fahrenheit);
 console.log("Ejercicio 3 - Arreglo original:", temperaturas);
+
+// Ejercicio 4: Filtrado Selectivo (Inmutable)
+const inventario = [5, 12, 8, 130, 44];
+
+const grandesValores = inventario.filter(n => n > 10);
+
+console.log("Ejercicio 4 - Resultado:", grandesValores);
+console.log("Ejercicio 4 - Arreglo original:", inventario);
+
