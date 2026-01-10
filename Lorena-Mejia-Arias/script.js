@@ -65,3 +65,12 @@ herramientas.pop();
 console.log("Ejercicio 1 - Resultado:", herramientas);
 console.log("Ejercicio 1 - Arreglo original modificado:", herramientas);
 
+// Ejercicio 2: Modificación de Índice (Mutable)
+
+let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
+
+colores.splice(1, 0, "Naranja"); 
+colores.splice(colores.indexOf("Azul"), 1, "Morado"); 
+
+console.log("Ejercicio 2 - Resultado:", colores);
+console.log("Ejercicio 2 - Arreglo original modificado:", colores);
