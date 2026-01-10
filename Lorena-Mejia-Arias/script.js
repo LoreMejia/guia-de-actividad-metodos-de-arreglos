@@ -91,3 +91,10 @@ const grandesValores = inventario.filter(n => n > 10);
 console.log("Ejercicio 4 - Resultado:", grandesValores);
 console.log("Ejercicio 4 - Arreglo original:", inventario);
 
+// Ejercicio 5: Acumulación de Datos (Inmutable)
+const ventas = [100, 250, 150, 400];
+
+const totalVentas = ventas.reduce((acc, v) => acc + v, 0);
+
+console.log("Ejercicio 5 - Resultado:", totalVentas);
+console.log("Ejercicio 5 - Arreglo original:", ventas);
