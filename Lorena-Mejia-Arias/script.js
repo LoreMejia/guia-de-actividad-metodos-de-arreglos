@@ -74,3 +74,11 @@ colores.splice(colores.indexOf("Azul"), 1, "Morado");
 
 console.log("Ejercicio 2 - Resultado:", colores);
 console.log("Ejercicio 2 - Arreglo original modificado:", colores);
+
+// Ejercicio 3: Transformación Declarativa (Inmutable)
+const temperaturas = [15, 20, 25, 30];
+
+const fahrenheit = temperaturas.map(c => (c * 9 / 5) + 32);
+
+console.log("Ejercicio 3 - Resultado:", fahrenheit);
+console.log("Ejercicio 3 - Arreglo original:", temperaturas);
