@@ -105,3 +105,10 @@ let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
 nombres.sort();
 console.log("Ejercicio 6 - Resultado:", nombres);
 console.log("Ejercicio 6 - Arreglo original modificado:", nombres);
+
+// Ejercicio 7: Inversión de Datos (Mutable)
+let orden = [1, 2, 3, 4, 5];
+
+orden.reverse();
+console.log("Ejercicio 7 - Resultado:", orden);
+console.log("Ejercicio 7 - Arreglo original modificado:", orden);
