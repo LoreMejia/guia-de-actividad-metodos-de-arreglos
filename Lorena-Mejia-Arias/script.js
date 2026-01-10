@@ -98,3 +98,10 @@ const totalVentas = ventas.reduce((acc, v) => acc + v, 0);
 
 console.log("Ejercicio 5 - Resultado:", totalVentas);
 console.log("Ejercicio 5 - Arreglo original:", ventas);
+
+// Ejercicio 6: Ordenamiento Alfabético (Mutable)
+let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
+
+nombres.sort();
+console.log("Ejercicio 6 - Resultado:", nombres);
+console.log("Ejercicio 6 - Arreglo original modificado:", nombres);
