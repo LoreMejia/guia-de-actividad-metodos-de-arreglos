@@ -14,11 +14,41 @@ splice(): Agrega, elimina o reemplaza elementos en cualquier posición sirve par
  
  2) Programación Imperativa vs Declarativa
 
- Programación Imperativa: es el “como hacerlo” este indica paso a paso lo que debe hacer el programa.
+La programación imperativa: se enfoca en describir cómo debe realizarse una tarea, 
+especificando paso a paso el flujo de control y las instrucciones necesarias.
 
- Programación Declarativa: es el “que se quiere” este indica que describe el resultado esperado, no el proceso.
+La programación declarativa: se centra en expresar qué resultado se desea obtener,
+dejando que el lenguaje o las funciones se encarguen del proceso interno, lo que produce un código más legible y conciso.
  
- */
+
+ 3) Funciones Declarativas (Arrow Functions):
+
+Las arrow functions son una sintaxis simplificada para declarar funciones en JavaScript,
+ utilizando el operador =>. Permiten escribir funciones de forma más corta y clara. 
+ Son preferidas al usar métodos de arreglos porque mejoran la legibilidad del código, 
+ reducen la cantidad de líneas y se integran naturalmente con métodos como map, filter y find.
+ 
+ 4)Efectos Secundarios (Side Effects):
+
+Un efecto secundario ocurre cuando un método de arreglo modifica una variable externa o el estado fuera de su propio alcance. 
+Esto puede generar comportamientos inesperados,dificultar el mantenimiento del código y provocar errores, 
+ya que el resultado de la función depende de factores externos.
+
+5)Conceptos de Búsqueda:
+
+find(): Retorna el primer elemento del arreglo que cumple con una condición específica.
+
+findIndex(): Retorna el índice del primer elemento que cumple la condición; si no existe, retorna -1.
+
+includes(): Verifica si un valor existe dentro del arreglo, retornando true o false.
+
+6) Iteración vs Transformación:
+
+forEach(): es un método de iteración, utilizado para recorrer un arreglo y ejecutar una acción sobre cada elemento, 
+sin retornar un nuevo arreglo.
+
+map(): es un método de transformación, ya que recorre el arreglo y retorna uno nuevo, 
+donde cada elemento es el resultado de aplicar una función al elemento original.*/
 
 
 
