@@ -139,3 +139,10 @@ const edades = [20, 25, 19, 30];
 const todosMayores = edades.every(e => e >= 18);
 console.log("Ejercicio 11 - Resultado:", todosMayores);
 console.log("Ejercicio 11 - Arreglo original:", edades);
+
+// Ejercicio 12: Validación Parcial (Declarativo)
+
+const puntajes = [5, 8, 12, 3];
+const algunoMayor = puntajes.some(p => p > 10);
+console.log("Ejercicio 12 - Resultado:", algunoMayor);
+console.log("Ejercicio 12 - Arreglo original:", puntajes);
