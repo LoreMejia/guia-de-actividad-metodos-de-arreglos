@@ -162,3 +162,11 @@ const palabras = ["Hello", "World", "JavaScript"];
 const frase = palabras.join(" ");
 console.log("Ejercicio 14 - Resultado:", frase);
 console.log("Ejercicio 14 - Arreglo original:", palabras);
+
+// Ejercicio 15: Extracción de Rango (Inmutable)
+
+const base = ["Element0", "Element1", "Element2", "Element3"];
+const subarreglo = base.slice(1, 3);
+console.log("Ejercicio 15 - Resultado:", subarreglo);
+console.log("Ejercicio 15 - Arreglo original:", base);
+
