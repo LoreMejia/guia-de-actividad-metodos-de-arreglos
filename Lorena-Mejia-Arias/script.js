@@ -112,3 +112,9 @@ let orden = [1, 2, 3, 4, 5];
 orden.reverse();
 console.log("Ejercicio 7 - Resultado:", orden);
 console.log("Ejercicio 7 - Arreglo original modificado:", orden);
+
+// Ejercicio 8: Búsqueda de Valor (Declarativo)
+const invitados = ["Juan", "Sebas", "Lore", "Sami"];
+const encontrado = invitados.find(nombre => nombre === "Isaac");
+console.log("Ejercicio 8 - Resultado:", encontrado);
+console.log("Ejercicio 8 - Arreglo original:", invitados);
