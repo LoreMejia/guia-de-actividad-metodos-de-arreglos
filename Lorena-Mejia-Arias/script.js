@@ -146,3 +146,12 @@ const puntajes = [5, 8, 12, 3];
 const algunoMayor = puntajes.some(p => p > 10);
 console.log("Ejercicio 12 - Resultado:", algunoMayor);
 console.log("Ejercicio 12 - Arreglo original:", puntajes);
+
+// Ejercicio 13: Concatenación (Inmutable)
+
+const filaA = ["A1", "A2"];
+const filaB = ["B1", "B2"];
+const todasLasFilas = filaA.concat(filaB);
+console.log("Ejercicio 13 - Resultado:", todasLasFilas);
+console.log("Ejercicio 13 - Arreglo original filaA:", filaA);
+console.log("Ejercicio 13 - Arreglo original filaB:", filaB);
