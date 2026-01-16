@@ -155,3 +155,10 @@ const todasLasFilas = filaA.concat(filaB);
 console.log("Ejercicio 13 - Resultado:", todasLasFilas);
 console.log("Ejercicio 13 - Arreglo original filaA:", filaA);
 console.log("Ejercicio 13 - Arreglo original filaB:", filaB);
+
+//Ejercicio 14: Formateo de String (Inmutable)
+
+const palabras = ["Hello", "World", "JavaScript"];
+const frase = palabras.join(" ");
+console.log("Ejercicio 14 - Resultado:", frase);
+console.log("Ejercicio 14 - Arreglo original:", palabras);
