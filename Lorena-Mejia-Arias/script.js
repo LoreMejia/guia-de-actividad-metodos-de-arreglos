@@ -125,3 +125,10 @@ const precios = [45, 12, 89, 34];
 const indice = precios.findIndex(p => p === 89);
 console.log("Ejercicio 9 - Resultado:", indice);
 console.log("Ejercicio 9 - Arreglo original:", precios);
+
+// Ejercicio 10: Comprobación de Existencia (Inmutable)
+
+const cursos = ["Git", "React", "Node"];
+const existeJS = cursos.includes("JavaScript");
+console.log("Ejercicio 10 - Resultado:", existeJS);
+console.log("Ejercicio 10 - Arreglo original:", cursos);
